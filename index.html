@@ -1,46 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Gaganashree Portfolio</title>
-    <style>
-        body {
-            font-family: Arial;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            text-align: center;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 20px;
-        }
-        section {
-            margin: 20px;
-            padding: 20px;
-            background: white;
-            border-radius: 10px;
-        }
-        h2 {
-            color: #333;
-        }
-    </style>
+    <title>My Portfolio</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+
+    h2 {
+      color: #1e3a8a;
+      border-bottom: 2px solid #1e3a8a;
+      padding-bottom: 5px;
+    }
+
+    .section {
+      margin-bottom: 25px;
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    a {
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    ul {
+      padding-left: 20px;
+      line-height: 1.8;
+    }
+  </style>
 </head>
 
-<body>
+
 
 <header>
     <h1>👩‍💻 Gaganashree D</h1>
     <h3>Aspiring Fullstack web Developer</h3>
     <p>📍 Chikkaballapur, Bangalore</p>
     <p>📧 gaganashree.pt@gmail.com | 📞 +91 8310900343</p>
+    <p><a href="https://www.linkedin.com/in/gaganashreed" target="_blank">LinkedIn Profile</a></p>
+     <p><a href="https://github.com/gaganashreept-crypto" target="_blank">Github Profile</a></p>
 </header>
 
 <section>
     <h2>🎯 Objective</h2>
     <p>
-        Motivated Information Science Engineering student with strong programming skills and passion for problem-solving. 
-        Seeking an internship to apply technical knowledge and gain hands-on experience in software development.
+        Aspiring Full Stack Developer with strong skills in Java, SQL, and web technologies. 
+        Passionate about building real-world applications and seeking an internship to contribute and grow in a professional environment.
     </p>
 </section>
 
@@ -52,26 +69,66 @@
 </section>
 
 <section>
-    <h2>🧠 Technical Skills</h2>
-    <p>Java | C (Basic) | SQL | VS Code | HTML | CSS | JavaScript</p>
-</section>
+    <h3>Technical Skills</h3>
+<ul>
+  <li><strong>Languages:</strong> Java, C</li>
+  <li><strong>Web:</strong> HTML, CSS, JavaScript</li>
+  <li><strong>Database:</strong> SQL</li>
+  <li><strong>Tools:</strong> VS Code, Git</li>
+</ul>
 
 <section>
-    <h2>📂 Projects</h2>
+    <h3>Projects</h3>
 
-    <p><b>🔥 Multi-Extinguisher Fire-Fighting Robot</b><br>
-    Developed an intelligent robot using sensors to detect different fire types with automated extinguishing.</p>
+<div style="margin-bottom: 20px;">
+  <h4>Multi-Extinguisher Fire-Fighting Robot with Real-Time Detection</h4>
+  
+  <ul>
+    <li>Developed an intelligent fire-fighting system for early detection of fire and smoke using IoT and Machine Learning</li>
+    <li>Integrated four ESP32-CAM modules for 360° real-time monitoring and live video streaming</li>
+    <li>Built backend using FastAPI to handle multi-camera streaming and real-time data processing</li>
+    <li>Implemented a CNN-based model using PyTorch to classify Fire, Smoke, and Neutral conditions</li>
+    <li>Used multiprocessing and inference queue to optimize real-time performance</li>
+    <li>Enabled automated email alerts with image capture during fire incidents</li>
+    <li>Developed logging system to track events, camera health, and performance</li>
+    <li>Achieved low-latency detection using MJPEG streaming and optimized frame processing</li>
+  </ul>
 
-    <p><b>🐟 Automated Fish Feeder (IoT)</b><br>
-    Built an automated system to feed fish using microcontroller and mobile control.</p>
+  <p><strong>Technologies Used:</strong> ESP32-CAM, Python, FastAPI, PyTorch, OpenCV, IoT, Machine Learning</p>
+
+  <p><strong>Applications:</strong> Smart buildings, industries, warehouses, and public safety systems</p>
+
+  <!-- Add your GitHub link below -->
+  <p><strong>GitHub:</strong> <a href="#" target="_blank">View Project</a></p>
+
+</div>
 
 </section>
+    <div class="section">
+  <h2>Internship Experience</h2>
+
+  <h4>Software Development Intern</h4>
+  <p><strong>Company:</strong> Tap Academy </p>
+  <p><strong>Duration:</strong> Jan 2026 – Present</p>
+<p><strong>Internship Period:</strong> 6 Months</p>
+
+  <ul>
+    <li>Developed and maintained web pages using HTML, CSS, and JavaScript</li>
+    <li>Worked with Java and SQL for backend logic and database operations</li>
+    <li>Collaborated in a team environment to deliver project tasks on time</li>
+    <li>Enhanced debugging, coding, and problem-solving skills</li>
+  </ul>
+</div>
 
 <section>
-    <h2>📜 Certifications</h2>
-    <p>Java Programming - Infosys Springboard</p>
-    <p>Machine Learning using Python</p>
-    <p>SQL for Beginners</p>
+   
+    <h2>Certifications</h2>
+    <ul>
+      <li>Java Programming – Infosys Springboard</li>
+      <li>Machine Learning using Python</li>
+      <li>SQL for Beginners</li>
+    </ul>
+  
 </section>
 
 <section>
@@ -84,10 +141,7 @@
     <p>English | Kannada | Telugu | Tamil</p>
 </section>
 
-<section>
-    <h2>🔗 Links</h2>
-    <p><a href="https://www.linkedin.com/in/gaganashreed" target="_blank">LinkedIn Profile</a></p>
-</section>
+
 
 </body>
 </html>
